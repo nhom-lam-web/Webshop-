@@ -1,0 +1,729 @@
+<!-- //Grid Layout Ctrl+/	Comment/Un-comment dòng/vùng chọn hiện tại --> 
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trang chi tiết sản phẩm</title>
+	<link rel="icon" href="image/heel-icon.png">
+	<link rel="stylesheet" href="css/grid_style.css">
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+	<!-- CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- End CDN -->
+
+</head>
+<body>
+	<div class="container">
+		<!-- begin header -->
+		<header>
+			<div class="top-header">
+				<div class="row top-header-row">
+					<div class="col col-sm-6 col-md-4">
+						<div class="left-logo"><a href="Index.html"><img src="image/girl-shoe-logo.png" alt="shoe-logo" class="img-fluid img-logo"></a></div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<div class="center-banner"><img src="image/sale.png" alt="shoe-logo" class="img-fluid banner-img"></div>
+					</div>
+					<div class="col-sm-12 col-md-5 right-section">
+						<div class="right-section">
+							<div class="top-flex-containner">
+								<a href="#"><div class="top-item item1"></div></a>  
+								<a href="#"><div class="top-item item2"></div></a> 
+								<a href="#"><div class="top-item item3"></div></a>  
+								<a href="#"><div class="top-item item4"></div></a>  
+							</div>
+							<div class="center-flex-containner">
+								<div  class="center-item">
+
+								</div>
+							</div>
+							<div class="bot-flex-containner">
+								<div class="bot-item"><a href="#" class="item-link"><i class="fas fa-phone-square fa-flip-horizontal"></i><b>0903378888</b></a></div>
+								<div class="bot-item"><a href="DangKyDangNhap.html" class="item-link"><i class="fas fa-user"></i><b>Tài Khoản</b></a></div>
+								<div class="bot-item"><a href="TrangGioHang.html" class="item-link"><i class="fas fa-shopping-cart"></i><b>Giỏ Hàng</b></a><span class="count">&nbsp;<b>(0)</b></span></div>								
+							</div>
+							<div class="center-flex-containner">
+								<div class="center-item">
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>			
+			</div>
+			<div class="bot-header">
+				<div class="row bot-header-row bg-dark">
+					<div class="col-sm-12 col-md-7 col-lg-7 ">
+						<div class="menu menu-text ">
+							<!-- Tạo thanh navbar dùng bootstrap-->
+							<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+								<a class="navbar-brand" href="Index.html">&nbsp;<i class="fas fa-home"></i>&nbsp;</a>
+								<!-- Tạo nút button -->
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+
+								<!-- Tạo collapse - Sập lại khi giao diện co lại -->
+								<div class="collapse navbar-collapse" id="collapsibleNavbar">
+									<!-- Tạo thanh navbar ngang-->
+									<ul class="navbar-nav">
+										<!-- Giày nam -->
+										<li class="nav-item parent-li-menu"><a href="#" class="nav-link nav">Giày nam &nbsp;<i class="fas fa-male"></i></a>
+											<!-- flex-column để các phần tử hiển thị theo chiều dọc -->
+											<!-- Tạo menu cấp 1 -->
+											<ul class="navbar-nav flex-column rank1-ul-menu">
+												<li class="nav-item rank1-li-menu"><a href="#" class="nav-link">Giày thể thao</a>
+													<!-- Tạo menu cấp 2 -->
+													<div class="rank2-menu">
+														<ul class="navbar-nav flex-column rank2-ul-menu">
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới </a>
+																<!-- Tạo menu cấp 3 -->
+																<div class="rank3-menu">
+																	<ul class="navbar-nav flex-column rank3-ul-menu">
+																		<li class=" nav-item rank3-li-menu"><a href="#" class="nav-link">cháu </a></li>
+																		<li class="baby-liMenu"><a href="#" class="nav-link">cháu</a></li>
+																		<li class="baby-liMenu"><a href="#" class="nav-link">cháu</a></li>
+																	</ul>					
+																</div>
+															</li>
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới </a>
+																<!-- Tạo menu cấp 3 -->
+																<div class="rank3-menu">
+																	<ul class="navbar-nav flex-column rank3-ul-menu">
+																		<li class=" nav-item rank3-li-menu"><a href="#" class="nav-link">cháu22 </a></li>
+																		<li class="baby-liMenu"><a href="#" class="nav-link">cháu22</a></li>
+																		<li class="baby-liMenu"><a href="#" class="nav-link">cháu22</a></li>
+																	</ul>	
+																</div>	
+															</li>
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới </a>
+																<div class="rank3-menu">
+																	<ul class="navbar-nav flex-column rank3-ul-menu">
+																		<li class=" nav-item rank3-li-menu"><a href="#" class="nav-link">cháu333 </a></li>
+																		<li class="baby-liMenu"><a href="#" class="nav-link">cháu333</a></li>
+																		<li class="baby-liMenu"><a href="#" class="nav-link">cháu333</a></li>
+																	</ul>
+																</div>		
+															</li>
+														</ul>	
+													</div>
+												</li>
+												<li class="nav-item rank1-li-menu"><a href="#" class="nav-link">Giày lười </a>
+													<div class="rank2-menu">
+														<ul class="navbar-nav flex-column rank2-ul-menu">
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới2 </a>
+															</li>
+															<li class="child2-liMenu"><a href="#" class="nav-link">mới2 </a>
+															</li>
+															<li class="child2-liMenu"><a href="#" class="nav-link">mới2 </a></li>
+														</ul>		
+													</div>
+												</li>
+												<li class="nav-item rank1-li-menu"><a href="#" class="nav-link">Giày boots</a>
+													<div class="rank2-menu">
+														<ul class="navbar-nav flex-column rank2-ul-menu">
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới3 </a>
+															</li>
+															<li class="child2-liMenu"><a href="#" class="nav-link">mới3 </a>
+															</li>
+															<li class="child2-liMenu"><a href="#" class="nav-link">mới3 </a></li>
+														</ul>			
+													</div>									
+												</li>
+												<li class="nav-item rank1-li-menu"><a href="#" class="nav-link">Giày dép</a>
+
+												</li>
+											</ul>
+										</li>
+										<!-- End Giày nam -->										
+										<li class="nav-item parent-li-menu"><a href="#" class="nav-link">Giày nữ &nbsp;<i class="fas fa-female"></i></a>
+											<!-- Tạo menu cấp 1 -->
+											<ul class="navbar-nav flex-column rank1-ul-menu">
+												<li class="nav-item rank1-li-menu"><a href="#" class="nav-link">Giày thể thao</a>
+													<!-- Tạo menu cấp 2 -->
+													<div class="rank2-menu">
+														<ul class="navbar-nav flex-column rank2-ul-menu">
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới </a>
+																<!-- Tạo menu cấp 3 -->
+																<div class="rank3-menu">
+																	<ul class="navbar-nav flex-column rank3-ul-menu">
+																		<li class=" nav-item rank3-li-menu"><a href="#" class="nav-link">cháu </a></li>
+																		<li class="baby-liMenu"><a href="#" class="nav-link">cháu</a></li>
+																		<li class="baby-liMenu"><a href="#" class="nav-link">cháu</a></li>
+																	</ul>					
+																</div>
+															</li>
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới2 </a>
+																<!-- Tạo menu cấp 3 -->
+																<div class="rank3-menu">
+																	<ul class="navbar-nav flex-column rank3-ul-menu">
+																		<li class=" nav-item rank3-li-menu"><a href="#" class="nav-link">cháu22 </a></li>
+																		<li class="baby-liMenu"><a href="#" class="nav-link">cháu22</a></li>
+																		<li class="baby-liMenu"><a href="#" class="nav-link">cháu22</a></li>
+																	</ul>	
+																</div>			
+															</li>
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới </a>
+																<div class="rank3-menu">
+																	<ul class="navbar-nav flex-column rank3-ul-menu">
+																		<li class=" nav-item rank3-li-menu"><a href="#" class="nav-link">cháu333 </a></li>
+																		<li class="baby-liMenu"><a href="#" class="nav-link">cháu333</a></li>
+																		<li class="baby-liMenu"><a href="#" class="nav-link">cháu333</a></li>
+																	</ul>					
+																</div>		
+															</li>
+														</ul>							
+													</div>
+												</li>
+												<li class="nav-item rank1-li-menu"><a href="#" class="nav-link">Giày lười </a>
+													<div class="rank2-menu">
+														<ul class="navbar-nav flex-column rank2-ul-menu">
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới </a>
+															</li>
+															<li class="child2-liMenu"><a href="#" class="nav-link">mới2 </a>
+															</li>
+															<li class="child2-liMenu"><a href="#" class="nav-link">mới </a></li>
+														</ul>												
+													</div>
+												</li>
+												<li class="nav-item rank1-li-menu"><a href="#" class="nav-link">Giày boots</a>
+													<div class="rank2-menu">
+														<ul class="navbar-nav flex-column rank2-ul-menu">
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới </a>
+															</li>
+															<li class="child2-liMenu"><a href="#" class="nav-link">mới2 </a>
+															</li>
+															<li class="child2-liMenu"><a href="#" class="nav-link">mới </a></li>
+														</ul>												
+													</div>												
+												</li>
+												<li class="nav-item rank1-li-menu"><a href="#" class="nav-link">Giày dép</a>
+
+												</li>
+											</ul>
+										</li>
+
+										<!-- Giầy trẻ em -->
+										<li class="nav-item parent-li-menu"><a href="#" class="nav-link">Giày trẻ em &nbsp;<i class="fas fa-child fa-xs"></i></a>
+											<ul class="navbar-nav flex-column rank1-ul-menu">
+												<li class="nav-item rank1-li-menu"><a href="#" class="nav-link">Giày thể thao</a>
+													<!-- Tạo menu cấp 2 -->
+													<div class="rank2-menu">
+														<ul class="navbar-nav flex-column rank2-ul-menu">
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới </a>
+															</li>
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới2 </a>
+
+															</li>
+															<li class=" nav-item rank2-li-menu"><a href="#" class="nav-link">mới </a>
+
+															</li>
+														</ul>												
+													</div>
+
+												</li>
+												<li class="nav-item rank1-li-menu"><a href="#" class="nav-link">Giày lười </a>
+												</li>
+												<li class="nav-item rank1-li-menu"><a href="#" class="nav-link">Giày dép</a>
+												</li>
+											</ul>
+										</li>
+										<!-- Tạo dropdown -->
+										<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Nhiều hơn</a>
+											<div class="dropdown-menu">
+												<a class="dropdown-item" href="#">Giày thể thao</a>
+												<a class="dropdown-item" href="#">Giày cao gót</a>
+												<a class="dropdown-item" href="#">Giày lườ<i></i></a>
+											</div>											
+										</li>
+									</ul>
+								</div> 
+							</nav>							
+						</div>
+					</div>
+					<div class="col-sm-12 col-md col-lg">
+						<div class="search search-margin-top">
+							<form class="" action="#">
+								<input type="text" placeholder="Search..." name="search">
+								<button type="submit"><i class="fa fa-search"></i></button>
+							</form>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</header>		
+		<!-- end header -->
+		<!-- begin body -->
+		<!-- tạo breadcum cho trang chi tiết sp -->
+		<div class="row breadcrumb-row">
+			<div class="col-sm bg-dark">
+				<div class="bread_crumb">
+					<nav class="breadcrumb bg-light">
+						<a class="breadcrumb-item" href="Index.html">Trang chủ</a>
+						<i class="fas fa-chevron-right"></i>
+						<span class="active">Trang chi tiết sản phẩm</span>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!-- tạo slideshow gallery và thông tin số lượng sp ... -->
+		<div class="row single-product-row"> 
+			<div class="col-sm-12 col-md-12 col-lg-5 product-slideshow"> 
+				<div class="product-image shadow p-4 mb-4 bg-white">
+					<!-- div.container>(div.slidesInBox>((div.numberText{$/4})+(img.Img[src="image/products/product$.jpg" alt="product$"])))*4	-->	
+					<!--div.row>(div.col.col-sm.col-md.col-lg>img.slideImg.fadeImg[src="image/products/product1.$.jpg" alt="product$"])*4-->
+
+						<a class="pre" onclick="next(-1)"><i class="fas fa-arrow-circle-left fa-2x"></i></a>
+						<a class="next" onclick="next(1)"><i class="fas fa-arrow-circle-right fa-2x"></i></a>
+						<div class="slidesInBox zoom" id="zoom_id1">
+							<div class="numberText">1/4</div>
+							<img src="image/products/product1.jpg" alt="product1" class="slideImg">
+						</div>
+						<div class="slidesInBox zoom" id="zoom_id2">
+							<div class="numberText">2/4</div>
+							<img src="image/products/product1.2.jpg" alt="product2" class="slideImg">
+						</div>
+						<div class="slidesInBox zoom" id="zoom_id3">
+							<div class="numberText">3/4</div>
+							<img src="image/products/product1.3.jpg" alt="product3" class="slideImg">
+						</div>
+						<div class="slidesInBox zoom" id="zoom_id4">
+							<div class="numberText">4/4</div>
+							<img src="image/products/product1.4.jpg" alt="product4" class="slideImg">
+						</div>
+
+					<div class="row galerry-row">
+						<div class="col col-sm col-md col-lg galerryItem"><img src="image/products/product1.jpg" alt="product1" class="slideImg fadeImg" onclick="currentSlide(1)"></div>
+						<div class="col col-sm col-md col-lg galerryItem"><img src="image/products/product1.2.jpg" alt="product2" class="slideImg fadeImg" onclick="currentSlide(2)"></div>
+						<div class="col col-sm col-md col-lg galerryItem"><img src="image/products/product1.3.jpg" alt="product3" class="slideImg fadeImg" onclick="currentSlide(3)"></div>
+						<div class="col col-sm col-md col-lg galerryItem"><img src="image/products/product1.4.jpg" alt="product4" class="slideImg fadeImg" onclick="currentSlide(4)"></div>
+					</div>	
+
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-7 bg-light product-info"> 
+				<div class="product-infomation shadow p-4 mb-4 bg-white">
+					<form name="detail_product_form" id="detail_product_form" class="cart-form" action="TrangGioHang.html">
+						<div class="product-content">
+							<h3 class="productName">Giầy thể thao</h3>
+							<h4>AIR JORDAN</h4>
+						</div>
+						<div class="productPrice">
+							<del class="old-price">Giá cũ: 7.770.000 đồng</del>
+							<br>
+							<span class="new-price">Giảm: 6.500.000 đồng</span>
+						</div>	
+						<div class="size-list">
+							<b>Kích thước:</b>
+							<input type="radio" name="size" id="size38" value="38">
+							<label class="size " for="size38">38</label>
+							<input type="radio" name="size" id="size39" value="39">
+							<label class="size " for="size39">39</label>
+							<input type="radio" name="size" id="size40" value="40">
+							<label class="size " for="size40">40</label>
+							<input type="radio" name="size" id="size41" value="41">
+							<label class="size " for="size41">41</label>
+							<input type="radio" name="size" id="size42" value="42">
+							<label class="size" for="size42">42</label>
+							<input type="radio" name="size" id="size43" value="43">
+							<label class="size" for="size43">43</label>
+							<input type="radio" name="size" id="size44" value="44">
+							<label class="size" for="size44">44</label>                     
+							<div><b>Tình trạng:</b><span class="status">&nbsp; <i><ins><b>Còn hàng.</b></ins></i></span></div>
+						</div>
+						<div class="color-list">
+							<b>Màu sắc:</b>
+							<ul class="color-list-ul">
+								<li class="color-list-li">
+									<input type="radio" name="color" id="color1" value="1">
+									<label class="badge badge-pill badge-color-1 " for="color1">đỏ</label>
+									<i class="fas fa-check"></i>
+								</li>
+								<li class="color-list-li">
+									<input type="radio" name="color" id="color2" value="2">
+									<label class="badge badge-pill badge-color-2" for="color2">xanh dương</label>
+									<i class="fas fa-check"></i>
+								</li>
+								<li class="color-list-li">
+									<input type="radio" name="color" id="color3" value="3">
+									<label class="badge badge-pill badge-color-3 " for="color3">bạc</label>
+									<i class="fas fa-check"></i>
+								</li>
+								<li class="color-list-li">
+									<input type="radio" name="color" id="color4" value="4">
+									<label class="badge badge-pill badge-color-4" for="color4">vàng</label>
+									<i class="fas fa-check"></i>
+								</li>																
+								<li class="color-list-li">
+									<input type="radio" name="color" id="color5" value="5">
+									<label class="badge badge-pill badge-color-5" for="color5">hồng</label>
+									<i class="fas fa-check"></i>
+								</li>
+								<li class="color-list-li">
+									<input type="radio" name="color" id="color6" value="6">
+									<label class="badge badge-pill badge-light" for="color6">trắng</label>
+									<i class="fas fa-check"></i>		
+								</li>									
+								<li class="color-list-li">
+									<input type="radio" name="color" id="color7" value="7">
+									<label class="badge badge-pill badge-dark" for="color7">đen</label>
+									<i class="fas fa-check"></i>
+								</li>				
+							</ul>
+						</div>                         
+
+						<input type="hidden" name ="masp" value="0119">	
+						<div class="quantity">
+							<b>Số lượng:</b>
+							<!-- <input type="number" name="quantity" value="" min="1" max="5" class="input-quantity" id="quantity_id"> -->
+							<button type="button" class="btn btn-light minus_button"><i class="fas fa-minus-square fa-lg"></i></button>
+							<input type="text" name="quantity" value="0" pattern="^[1-9]\d{0,1}$" title="nhập số dương và tối đa là 2 chữ số " class="input-quantity quantity_class" required >
+							<button type="button" class="btn btn-light plus_button"><i class="fas fa-plus-square fa-lg"></i></button>		
+							<div class="cart-button">
+								<button type="submit" class="btn btn-outline-info btn-cart-submit">Mua<i class="fas fa-cart-plus"></i>
+								</button>
+								<button type="button" class="btn btn-outline-danger">Thêm vào danh sách yêu thích<i class="fas fa-heart"></i></button>
+							</div>							
+							<div id="quantity-err-message1" class="err-message">Tối đa chỉ 10 sản phẩm. Bạn vui lòng nhập lại!</div>
+							<div id="quantity-err-message2" class="err-message">Chỉ cho phép nhập số!. Bạn vui lòng nhập lại!</div>
+							<div id="quantity-err-message3" class="err-message">Vui lòng nhập số dương</div>
+						</div>
+						<div class="promotion-ofer">
+							<span class="promotion-text"><strong>Chương trình khuyến mãi&nbsp;<i class="fas fa-gift"></i></strong></span> &nbsp; 
+							<span class="text">Khuyễn mãi cho tất cả các sản phẩm có đơn hàng giá từ 4 triệu trở lên</span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--Tạo thông tin & mô tả sản phẩm, bình luận và đánh giá  -->
+			<div class="row tab">
+				<button class="col-sm col-md col-lg tab-button" id="default" onclick="showTab(event,'description')" >Thông tin chi tiết</button>
+				<button class="col-sm col-md col-lg tab-button" onclick="showTab(event,'comment')">Bình luận</button>
+				<button class="col-sm col-md col-lg tab-button" onclick="showTab(event,'review')">Đánh giá</button>
+			</div>
+			<div class="tab-content tab-content1" id="description">
+				<b>Chi tiết</b>
+				<p>Nguồn gốc:	Hàng chính hãng</p>
+				<p>Hãng sản xuất:	Adias</p>
+				<p>Mục đích sử dụng:	Giày đi hàng ngày, giày thể thao chạy bộ</p>
+				<p>Kích cỡ:	39-45</p>
+				<p>Màu sắc:	Nhiều màu</p>
+				<p>Tình trạng:	Mới 100%, Full box</p>
+				<p>Mã sản phẩm	 #AA7066 003, AA7066 600, AA7066 066</p>
+			</div>
+			<div class="tab-content tab-content2" id="comment">
+				<div class="reviewer-box">
+					<div class="avatar-content">
+						<span class="avatar-img"></span>
+						<span class="name">Đỗ Rê Mon</span>
+						<span class="date"> - 1 giờ trước</span>
+						<span class="rating"> - Đánh giá:
+							<i class="fas fa-star review-star"></i>
+							<i class="fas fa-star review-star"></i>
+							<i class="fas fa-star review-star"></i>
+							<i class="fas fa-star review-star"></i>
+							<i class="fas fa-star review-star"></i>
+							Hài lòng
+						</span>
+						<span class="detail">&nbsp;<i class="fas fa-reply-all"></i>&nbsp;trả lời</span>
+					</div>
+					<div class="comment-text">
+					</div>	
+				</div>	
+				<div class="reviewer-box ">
+					<div class="avatar-content">
+						<span class="avatar-img avatar-img3"></span>
+						<span class="name">Đỗ Rê Mon</span>
+						<span class="date"> - 2 tiếng trước</span>
+						<span class="rating"> - Đánh giá:
+							<i class="fas fa-star review-star"></i>
+							<i class="fas fa-star "></i>
+							<i class="fas fa-star "></i>
+							<i class="fas fa-star "></i>
+							<i class="fas fa-star "></i>
+							Kém
+						</span>
+						<span class="detail">&nbsp;<i class="fas fa-reply-all"></i>&nbsp;trả lời</span>
+					</div>
+					<div class="comment-text">
+					</div>	
+				</div>
+
+				<div class="reviewer-box">
+					<div class="avatar-content">
+						<span class="avatar-img avatar-img2"></span>
+						<span class="name">Đỗ Rê Mon</span>
+						<span class="date"> - 2 tiếng trước</span>
+						<span class="rating"> - Đánh giá:
+							<i class="fas fa-star review-star"></i>
+							<i class="fas fa-star review-star"></i>
+							<i class="fas fa-star "></i>
+							<i class="fas fa-star "></i>
+							<i class="fas fa-star "></i>
+							Tạm ổn
+						</span>
+						<span class="detail">&nbsp;<i class="fas fa-reply-all"></i>&nbsp;trả lời</span>
+					</div>
+					<div class="comment-text">
+					</div>	
+				</div>
+
+				<div class="reviewer-box">
+					<div class="avatar-content">
+						<span class="avatar-img avatar-img2"></span>
+						<span class="name">Đỗ Rê Mon</span>
+						<span class="date"> - 2 tiếng trước</span>
+						<span class="rating"> - Đánh giá:
+							<i class="fas fa-star review-star"></i>
+							<i class="fas fa-star review-star"></i>
+							<i class="fas fa-star "></i>
+							<i class="fas fa-star "></i>
+							<i class="fas fa-star "></i>
+							chuối vl!
+						</span>
+						<span class="detail">&nbsp;<i class="fas fa-reply-all"></i>&nbsp;trả lời</span>
+					</div>
+					<div class="comment-text">
+						
+					</div>	
+				</div>				
+					<ul class="pagination justify-content-center">
+					  <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+					  <li class="page-item"><a class="page-link" href="#">1</a></li>
+					  <li class="page-item"><a class="page-link" href="#">2</a></li>
+					  <li class="page-item"><a class="page-link" href="#">3</a></li>
+					  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+					</ul>
+			</div>
+			<div class="tab-content tab-content3" id="review"></div>				
+		<div class="row title-row">
+			<div class="col-sm">
+				<div class="horizontal-line">
+					<div class="product-name-title">Sản phẩm có thể bạn muốn tìm &nbsp;<i class="fas fa-angle-double-right"></i>
+					</div>
+				</div>
+			</div>
+		</div>			
+		<div class="row related-product-row">
+			<div class="col bg-product">
+				<div class="related-product">
+		<div class="row new-product-row">
+			<div class="col col-sm-4 col-md bg-product">
+				<div class="new-product">
+				  <div class="card">
+				    <div class="card-body">
+				      <h6>AIR JORDAN</h6>
+				    	<div id="heart-icon5" class="heart-icon" onclick="changeIcon(this)">
+				    	 <i class="far fa-heart fa-lg" ></i>
+				    	 <i class="fas fa-heart fa-lg black-heart-icon"></i>
+				    	</div> 
+				      <div class="card-img"><a href="ChiTietSanPham.html?MaSanPham=0111"><span class="badge badge-success">Hấp dẫn</span>
+				     	<img class="card-img-top product-img" src="image/products/product5.jpg" alt="Card image"></a>
+				      </div>
+				      <div class="product-cost"><p class="center-text"><b>Giá: 9.211.000 đồng</b></p></div>
+				      <form action="TrangGioHang.html">
+				      	    <input type="hidden" name="masp" value="0111">		
+					      	<div class="product-button">
+					     	 	<button type="submit" class="btn btn-outline-success">Mua ngay <i class="fas fa-shopping-cart fa-flip-horizontal"></i></button>
+					      	</div>
+				 	  </form>
+				    </div>
+				  </div>						
+				</div>
+			</div>
+			<div class="col col-sm-4 col-md bg-light">
+				<div class="new-product">
+				  <div class="card">
+				    <div class="card-body">
+				      <h6>AIR JORDAN</h6>
+				    	<div id="heart-icon6" class="heart-icon" onclick="changeIcon(this)">
+				    	 <i class="far fa-heart fa-lg" ></i>
+				    	 <i class="fas fa-heart fa-lg black-heart-icon"></i>
+				    	</div> 
+				      <div class="card-img"><a href="ChiTietSanPham.html?MaSanPham=0111"><span class="badge badge-success">Hấp dẫn</span>
+				     	<img class="card-img-top product-img" src="image/products/product6.jpg" alt="Card image"></a>
+				      </div>
+				      <div class="product-cost"><p class="center-text"><b>Giá: 2.490.000 đồng</b></p></div>
+				      <form action="TrangGioHang.html">
+				      	    <input type="hidden" name="masp" value="0111">		
+					      	<div class="product-button">
+					     	 	<button type="submit" class="btn btn-outline-success">Mua ngay <i class="fas fa-shopping-cart fa-flip-horizontal"></i></button>
+					      	</div>
+				 	  </form>
+				    </div>
+				  </div>					
+				</div>
+			</div>
+			<div class="col col-sm-4 col-md bg-product">
+				<div class="new-product">
+				  <div class="card">
+				    <div class="card-body">
+				      <h6>AIR JORDAN</h6>
+				    	<div id="heart-icon7" class="heart-icon" onclick="changeIcon(this)">
+				    	 <i class="far fa-heart fa-lg"></i>
+				    	 <i class="fas fa-heart fa-lg black-heart-icon"></i>
+				    	</div> 
+				      <div class="card-img"><a href="ChiTietSanPham.html?MaSanPham=0111"><span class="badge badge-success">Hấp dẫn</span>
+				     	<img class="card-img-top product-img" src="image/products/product7.jpg" alt="Card image"></a>
+				      </div>
+				      <div class="product-cost"><p class="center-text"><b>Giá: 4.590.000 đồng</b></p></div>
+				      <form action="TrangGioHang.html">
+				      	    <input type="hidden" name="masp" value="0111">		
+					      	<div class="product-button">
+					     	 	<button type="submit" class="btn btn-outline-success">Mua ngay <i class="fas fa-shopping-cart fa-flip-horizontal"></i></button>
+					      	</div>
+				 	  </form>
+				    </div>
+				  </div>					
+				</div>
+			</div>
+			<div class="col-6 col-sm-6 col-md bg-light">
+				<div class="new-product">
+				  <div class="card">
+				    <div class="card-body">
+				      <h6>AIR JORDAN</h6>
+				    	<div id="heart-icon8" class="heart-icon" onclick="changeIcon(this)">
+				    	 <i class="far fa-heart fa-lg" ></i>
+				    	 <i class="fas fa-heart fa-lg black-heart-icon "  ></i>
+				    	</div> 
+				      <div class="card-img"><a href="ChiTietSanPham.html?MaSanPham=0111"><span class="badge badge-success">Hấp dẫn</span>
+				     	<img class="card-img-top product-img" src="image/products/product8.jpg" alt="Card image"></a>
+				      </div>
+				      <div class="product-cost"><p class="center-text"><b>Giá: 6.490.000 đồng</b></p></div>
+				      <form action="TrangGioHang.html">
+				      	    <input type="hidden" name="masp" value="0111">	
+					      	<div class="product-button">
+					     	 	<button type="submit" class="btn btn-outline-success">Mua ngay <i class="fas fa-shopping-cart fa-flip-horizontal"></i></button>
+					      	</div>
+				 	  </form>
+				    </div>
+				  </div>				
+				</div>
+			</div>
+			<div class="col-6 col-sm-6 col-md bg-product">
+				<div class="new-product">
+				  <div class="card">
+				    <div class="card-body">
+				      <h6>AIR JORDAN</h6>
+				    	<div id="heart-icon9" class="heart-icon" onclick="changeIcon(this)">
+				    	 <i class="far fa-heart fa-lg" ></i>
+				    	 <i class="fas fa-heart fa-lg black-heart-icon "  ></i>
+				    	</div> 
+				      <div class="card-img"><a href="ChiTietSanPham.html?MaSanPham=0111"><span class="badge badge-success">Hấp dẫn</span>
+				     	<img class="card-img-top product-img" src="image/products/product9.jpg" alt="Card image"></a>
+				      </div>
+				      <div class="product-cost"><p class="center-text"><b>Giá: 3.490.000 đồng</b></p></div>
+				      <form action="TrangGioHang.html">
+				      	    <input type="hidden" name="masp" value="0111">	
+					      	<div class="product-button">
+					     	 	<button type="submit" class="btn btn-outline-success">Mua ngay <i class="fas fa-shopping-cart fa-flip-horizontal"></i></button>
+					      	</div>
+				 	  </form>
+				    </div>
+				  </div>					
+				</div>
+			</div>
+
+		</div>	
+				</div>
+			</div>
+		</div>
+		<!-- end body -->
+		<!-- begin footer -->
+		<footer>
+			<div class="row jumbotron  jumbotron-fluid jumbotron-footer-top ">
+				<div class="col-sm-2 col-md-2 col-lg-2 bg">
+					<h5>&nbsp;Liên kết <i class="fas fa-link fa-xs"></i></h5>
+					<div class="youtube">
+						<a href="#" class="footer-link youtube-link">
+							<i class="fab fa-youtube fa-4x fa-fw"></i>
+							<div><b>&nbsp; youtube</b></div>									
+						</a>
+					</div>
+					<div class="twitter">
+						<a href="#" class="footer-link twitter-link">
+							<i class="fab fa-twitter-square fa-4x fa-fw"></i>
+							<div><b>&nbsp; &nbsp; twitter</b></div>									
+						</a>
+					</div> 
+					<div class="facebook">
+						<a href="#" class="footer-link facebook-link">
+							<i class="fab fa-facebook-square fa-4x fa-fw"></i>
+							<div><b>facebook</b></div>									
+						</a>								
+					</div>
+					<div class="snapchat">
+						<a href="#" class="footer-link snapchat-link">
+							<i class="fab fa-snapchat fa-4x fa-fw"></i>
+							<div><b>snapchat</b></div>									
+						</a>							
+					</div>																		
+				</div>
+				<div class="col-sm-4 col-md col-lg ">
+					<h5>&nbsp;Thanh toán online <i class="fab fa-amazon-pay"></i></h5>
+					<div class="payment-container">
+						<div class="payment-item card1"></div>
+						<div class="payment-item card2"></div>
+					</div>
+					
+					<div class="payment-container">
+						<div class="payment-item card3"></div>
+						<div class="payment-item card4"></div>
+					</div>		
+					<div class="payment-container">
+						<div class="payment-item card5"></div>
+						<div class="payment-item card6"></div>
+					</div>		
+				</div>
+				<div class="col-sm-3 col-md col-lg">
+					<h5>&nbsp;Dịch vụ <i class="far fa-thumbs-up"></i> & Cam kết <i class="fas fa-stamp"></i> </h5>
+					
+					<ul class="service-ol">
+						<li><i class="fas fa-headset"></i>&nbsp;&nbsp;Hỗ trợ & Tư vấn 24/7</li>
+						<li><i class="far fa-check-circle"></i>&nbsp;&nbsp;Sản phẩm chính hãng</li>
+						<li><i class="far fa-clock "></i>&nbsp;&nbsp;Thời hạn bảo hành</li>
+						<li><i class="fas fa-globe "></i>&nbsp;&nbsp;Giao hàng toàn quốc </li>
+						<li><i class="fas fa-hand-holding-usd "></i>&nbsp;&nbsp;Hoàn tiền</li>
+						<li><i class="fas fa-shipping-fast fa-fw"></i>&nbsp;&nbsp;Ship</li>
+					</ul>
+					
+				</div>
+				<div class="col-sm-3 col-md col-lg email-footer">
+					<h5>&nbsp;Email <i class="far fa-envelope"></i></h5>
+					<form  method="post">
+						<label >Địa chỉ Email  <span class="asterisk">*</span></label>
+						<div class="box">
+							<input type="email" value="" name="EMAIL" class="required email" placeholder="Nhập email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9-]+.+.[a-zA-Z]{2,3}" title="abc@xyz.mn">
+							<input type="submit" value="Subscribe" name="subscribe" class="button">	
+						</div>
+						<input type="hidden" name="xxx" value="113">
+					</form>  
+				</div>							
+			</div>
+			<div class="jumbotron jumbotron-fluid jumbotron-footer-bot">
+				<div class="container">
+					<p class="about">
+						<a href="/" class="link"><i class="fa fa-home"></i>Home</a> 
+						| <a href="#" class="link">About</a> 
+						| <a href="/" class="link">Contact</a> 
+						| <a href="#" class="link" >Terms&nbsp;of&nbsp;Use</a> 
+						| <a href="#" class="link">Privacy&nbsp;Policy</a>
+					</p>
+					<h5 class="rights-text">&copy; 2019 Shoes Shop. All rights reserved | Design by Truc Truong</h5> 
+				</div>
+			</div>
+		</footer>
+		<!-- end footer -->
+	</div>
+	<script src="javascript/javascript.js"></script>
+	<script src="javascript/chitietsanpham.js"></script>
+	<script src='javascript/jquery.zoom.min.js'></script>
+</body>
+</html>
